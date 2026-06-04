@@ -336,12 +336,12 @@ const MegaMenu = ({ isOpen, onClose }: { isOpen: boolean, onClose: () => void })
         >
           <div className="max-w-7xl mx-auto px-6 py-12">
             <div className="flex justify-between items-center mb-16">
-              <div className="bg-slate-900 p-3 rounded-xl cursor-pointer" onClick={() => {
+              <div className="cursor-pointer" onClick={() => {
                 window.history.pushState({}, '', '/');
                 window.dispatchEvent(new PopStateEvent('popstate'));
                 onClose();
               }}>
-                <img src={IMAGES.logo} alt="Logo" className="h-16 w-auto brightness-0 invert" referrerPolicy="no-referrer" />
+                <img src={IMAGES.logo} alt="Logo" className="h-20 w-auto" referrerPolicy="no-referrer" />
               </div>
               <button onClick={onClose} className="p-2 hover:bg-slate-100 rounded-full transition-colors">
                 <X size={32} />
