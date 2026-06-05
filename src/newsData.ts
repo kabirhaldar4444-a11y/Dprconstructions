@@ -1511,7 +1511,7 @@ This project demonstrates how international collaboration can solve large-scale 
     title: `California High-Speed Rail – United States`,
     date: 'Mar 15, 2024',
     category: 'Infrastructure',
-    image: 'https://images.unsplash.com/photo-1515162305285-0293e4767cc2?q=80&w=1200',
+    image: '/california_hsr.png',
     overview: `Connecting urban hubs across California with high-speed passenger rail, reducing emissions.
 The project is managed by the California High-Speed Rail Authority (CHSRA).
 It is the first high-speed rail system under construction in the United States.
